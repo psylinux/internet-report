@@ -1,6 +1,11 @@
 # Internet Speed Report
 **Internet Speed Report** is a simple command line script that automates internet speed testing by generating graphics report in **.png** format out of reports directory.
 
+## ATTENTION
+Internet Speed Report will be installed by default in **/tmp/internet_report/**
+To change this behavior you can edit **settings.conf** and change **SPEED_HOME** to directory you wish. For example:
+**SPEED_HOME="/opt"** will install Internet Speed Report into /opt directory.
+
 ## How to Install
 ```bash
 * git clone https://github.com/psylinux/internet_report.git internet_report
@@ -15,11 +20,7 @@
 * ./speed_check.sh
 ```
 
-## ATTENTION
-Internet Speed Report will be installed by default in **/tmp/internet_report/**
-
-
-## Final settings
+## Final Settings
 We are going to cron sript internetspeed.sh
 
 To check ping and speed every 20 minutes:
