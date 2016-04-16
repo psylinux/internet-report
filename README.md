@@ -1,5 +1,5 @@
-# Speed Tester
-Speed Tester is a simples command line script that automates internet speed testing.
+# Internet Speed Report
+Internet Speed Report is a simples command line script that automates internet speed testing.
 
 ## How to Install
 ```bash
@@ -16,7 +16,7 @@ Speed Tester is a simples command line script that automates internet speed test
 ```
 
 ## ATTENTION
-Speed Tester will be installed by default in **/tmp/internet_report/**
+Internet Speed Report will be installed by default in **/tmp/internet_report/**
 
 
 ## Final settings
