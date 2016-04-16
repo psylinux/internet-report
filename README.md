@@ -37,8 +37,8 @@ add:
 */20 * * * * pi bash /tmp/internet_report/bin/speed_check.sh
 ````
 
-Do not check massively your speed. Allow SpeedClient servers free for other users, please.
-Many testings are not goods for your internet speed too. I turn on each time that internet connection seems go too much slow.
+**Do not check massively your speed. Allow SpeedClient servers free for other users, please.**
+Many testings are not good for your internet speed too. I turn on each time that internet connection seems go too much slow.
 
 You can receive by email your daily internet speed report whenever you want with following command:
 ```bash
