@@ -25,7 +25,7 @@ function install() {
 	echo ""
 	### Updating and installing dependecies
 	apt-get update -y
-	apt-get install gzip bzip2 python2.7 gnuplot-x11 sendmail -y
+	apt-get install libnet-ssleay-perl libio-socket-ssl-perl gzip bzip2 python2.7 gnuplot-x11 sendmail -y
 	pip install speedtest-cli
 
 	### Uninstalling old versions of Internet Speed Report
