@@ -9,6 +9,9 @@
 # Provides: speed_check.sh
 ### END INIT INFO
 
+### Setting enviroment variables
+source ../etc/settings.conf
+
 echo ""
 echo -e "--------------------------------------------------------------------"
 echo -e ">>>>>>>>                 Generating Graphics                <<<<<<<<"
