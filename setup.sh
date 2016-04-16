@@ -20,6 +20,7 @@ function install() {
 	echo ""
 	echo -e "--------------------------------------------------------------------"
 	echo -e ">>>>>>>>       Installing the Internet Speed Report         <<<<<<<<"
+	echo -e ">>>>>>>>            Marcos Azevedo (psylinux)               <<<<<<<<"
 	echo -e "--------------------------------------------------------------------"
 	echo ""
 	### Updating and installing dependecies
@@ -34,6 +35,7 @@ function install() {
 	mkdir -p $SPEED_DATA
 	mkdir -p $SPEED_BIN
 	mkdir -p $SPEED_ETC
+	mkdir -p $SPEED_REPORTS
 
 	### Moving files to destination directory
 	cp -f *.sh $SPEED_BIN
