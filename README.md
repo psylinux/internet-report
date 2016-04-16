@@ -1,5 +1,5 @@
 # Internet Speed Report
-Internet Speed Report is a simples command line script that automates internet speed testing.
+Internet Speed Report is a simple command line script that automates internet speed testing
 
 ## How to Install
 ```bash
