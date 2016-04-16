@@ -20,7 +20,6 @@ function install() {
 	echo ""
 	echo -e "--------------------------------------------------------------------"
 	echo -e ">>>>>>>>       Installing the Internet Speed Report         <<<<<<<<"
-	echo -e ">>>>>>>>            Marcos Azevedo (psylinux)               <<<<<<<<"
 	echo -e "--------------------------------------------------------------------"
 	echo ""
 	### Updating and installing dependecies
@@ -67,7 +66,8 @@ case "$1" in
     *)
 		echo " "
 		echo -e "--------------------------------------------------------------------"
-		echo -e ">>>>>>>>               Speed Tester Installer               <<<<<<<<"
+		echo -e ">>>>>>>>        Internet Speed Report Installer             <<<<<<<<"
+		echo -e ">>>>>>>>           Marcos Azevedo (psylinux)                <<<<<<<<"
 		echo -e "--------------------------------------------------------------------"
 		echo ""
 		echo -e "Usage: setup.sh {install|clean}"
