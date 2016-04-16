@@ -36,9 +36,9 @@ function install() {
 	mkdir -p $SPEED_ETC
 
 	### Moving files to destination directory
-	mv *.sh $SPEED_BIN
-	mv *.conf $SPEED_ETC
-	mv README.md $SPEED_PATH
+	cp -f *.sh $SPEED_BIN
+	cp -f *.conf $SPEED_ETC
+	cp -f README.md $SPEED_PATH
 
 	### Setting right permissions
 	chmod +x $SPEED_BIN/*
