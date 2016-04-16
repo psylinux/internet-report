@@ -20,6 +20,7 @@ function install() {
 	echo ""
 	echo -e "--------------------------------------------------------------------"
 	echo -e ">>>>>>>>       Installing the Internet Speed Report         <<<<<<<<"
+	echo -e ">>>>>>>>           Marcos Azevedo (psylinux)                <<<<<<<<"
 	echo -e "--------------------------------------------------------------------"
 	echo ""
 	### Updating and installing dependecies
