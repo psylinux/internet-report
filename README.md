@@ -1,17 +1,14 @@
 #### ATENTION ####
 Speed Tester will be installed by default in /tmp/speed_tester/
+#### ATENTION ####
 
-1. Installing Speed Tester
-	tar xfvz speed_tester.tgz
-	cd speed_tester/
-	./setup.sh install
-	
-2. Removing Speed Tester
-	tar xfvz speed_tester.tgz
-	cd speed_tester/
-	./setup.sh clean
+Speed Tester is a simples command line script that automates internet speed tests.
 
-3. Using Speed Tester
-	cd /tmp/speed_tester/
-	./speed_check.sh
-	
+How to Install
+1. 	git clone https://github.com/psylinux/speedtester.git speedtester
+
+2. cd speedtester/
+
+3. chmod +x setup.sh
+
+4. ./setup installed
