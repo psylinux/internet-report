@@ -9,5 +9,5 @@ Speed Tester is a simples command line script that automates internet speed test
 * ./setup.sh
 ```
 
-## ATENTION
+## ATTENTION
 Speed Tester will be installed by default in **/tmp/speed_tester/**
