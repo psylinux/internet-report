@@ -6,14 +6,11 @@
 #
 
 ### BEGIN INIT INFO
-# Provides: check.sh
+# Provides: speed_check.sh
 ### END INIT INFO
 
 ### Setting enviroment variables
-SPEED_HOME="/tmp"
-SPEED_PATH="$SPEED_HOME/speed_tester"
-SPEED_DATA="$SPEED_PATH/data"
-SPEED_BIN="$SPEED_PATH/bin"
+source settings.conf
 
 echo ""
 echo -e "--------------------------------------------------------------------"
@@ -23,4 +20,4 @@ echo -e "--------------------------------------------------------------------"
 echo ""
 
 chmod +x $SPEED_BIN/*.sh
-$SPEED_BIN/internetspeed.sh && $SPEED_BIN/plot.sh
+$SPEED_BIN/report_gen.sh && $SPEED_BIN/report_plot.sh
