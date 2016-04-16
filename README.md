@@ -1,5 +1,5 @@
 # Speed Tester
-Speed Tester is a simples command line script that automates internet speed tests.
+Speed Tester is a simples command line script that automates internet speed testing.
 
 ## How to Install
 ```bash
