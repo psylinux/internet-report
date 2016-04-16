@@ -10,7 +10,7 @@
 ### END INIT INFO
 
 ### Setting enviroment variables
-source settings.conf
+source ../etc/settings.conf
 
 d=`date +%d%m%Y`
 ping=$d"ping.txt"

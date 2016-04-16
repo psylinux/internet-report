@@ -11,7 +11,7 @@
 
 
 ### Setting enviroment variables
-source settings.conf
+source ../etc/settings.conf
 
 d=`date +%d%m%Y`
 ping=$d"ping.txt"
@@ -32,7 +32,7 @@ FILEB=$SPEED_DATA/$ping
 	set xlabel "Time"
 	set ylabel "Mbit/s"
 	set terminal png medium
-	set output "$SPEED_PATH/speedupdown.png"
+	set output "$SPEED_REPORTS/speedupdown.png"
 	set title "upload/download speed $now"
 	plot "$FILE" using 1:(column(2)) t "Upload" with lines lt 1 lw 3 linecolor 2, "$FILEA" using 1:(column(2)) t "Download" with lines lt 1 lw 3 linecolor 1
 	quit
@@ -51,7 +51,7 @@ gnuplot plot.dat
 	set xlabel "Time Ping 0ms = offline"
 	set ylabel "milliseconds"
 	set terminal png medium
-	set output "$SPEED_PATH/ping.png"
+	set output "$SPEED_REPORTS/ping.png"
 	set title "ping google.com $now"
 	plot "$FILEB" using 1:(column(2)) t "Latency" with lines lt 1 lw 3 linecolor 3
 	quit
@@ -59,7 +59,7 @@ gnuplot plot.dat
 EOF`
 
 #### Plotting
-gnuplot plot.dat
+gnuplot plot.dat 
 
 #### Removing .dat file
 rm -rf *.dat
