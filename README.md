@@ -21,8 +21,8 @@ To change this behavior you can edit **settings.conf** and change **SPEED_HOME**
 ```
 
 ## Where are the reports?
-* The graphic report can be viewed inside reports directory
-* The text report can be viewed inside data directory. Just use an text editor to open ping.txt and speed.txt
+* The graphic report can be viewed inside **reports directory** 
+* The text report can be viewed inside **data directory**. Just use an text editor to open **ping.txt** and **speed.txt**
 
 ## Final Settings
 We are going to cron sript internetspeed.sh
