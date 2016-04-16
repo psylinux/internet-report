@@ -58,8 +58,7 @@ case "$1" in
 
 	install)
 		uninstall;
-	    install;
-		rm -rf $SPEED_PATH
+	    install;		
 	;;
 
     *)
