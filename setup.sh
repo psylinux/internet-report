@@ -19,7 +19,7 @@ function uninstall() {
 function install() {
 	echo ""
 	echo -e "--------------------------------------------------------------------"
-	echo -e ">>>>>>>>            Installing the Speed Tester             <<<<<<<<"
+	echo -e ">>>>>>>>       Installing the Internet Speed Report         <<<<<<<<"
 	echo -e "--------------------------------------------------------------------"
 	echo ""
 	### Updating and installing dependecies
@@ -46,7 +46,7 @@ function install() {
 
 	echo ""
 	echo -e "----------------------------------------------------------------------------------"
-	echo -e ">>>>>>>>    Speed Tester successful installed under $SPEED_PATH     <<<<<<<<"
+	echo -e ">>>>>>>> Internet Speed Report successful installed under $SPEED_PATH  <<<<<<<<"
 	echo -e "----------------------------------------------------------------------------------"
 	echo ""
 
