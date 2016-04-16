@@ -17,7 +17,7 @@ ping=$d"ping.txt"
 up=$d"upload.txt"
 dow=$d"download.txt"
 
-#### Creating SPEED_TESTER Directories 
+#### Creating SPEED_TESTER Directories
 mkdir -p $SPEED_DATA
 cd $SPEED_PATH
 

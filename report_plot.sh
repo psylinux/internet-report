@@ -43,7 +43,7 @@ EOF`
 gnuplot plot.dat
 
 `cat > plot.dat << EOF
-	set datafile separator ";" 
+	set datafile separator ";"
 	set grid
 	set xdata time
 	set timefmt '%Y-%m-%d %H:%M'

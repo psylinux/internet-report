@@ -26,26 +26,29 @@ function install() {
 	apt-get update -y
 	apt-get install gzip bzip2 python2.7 gnuplot-x11 sendmail -y
 	pip install speedtest-cli
-	
+
 	### Uninstalling old versions of Internet Speed Report
 	uninstall
-	
+
 	### Creating directories
 	mkdir -p $SPEED_DATA
 	mkdir -p $SPEED_BIN
 	mkdir -p $SPEED_ETC
-	
+
 	### Moving files to destination directory
-	mv *.sh $SPEED_BIN	
+	mv *.sh $SPEED_BIN
 	mv *.conf $SPEED_ETC
 	mv README.md $SPEED_PATH
-	
+
+	### Setting right permissions
+	chmod +x $SPEED_BIN
+
 	echo ""
 	echo -e "----------------------------------------------------------------------------------"
 	echo -e ">>>>>>>>    Speed Tester successful installed under $SPEED_PATH     <<<<<<<<"
 	echo -e "----------------------------------------------------------------------------------"
 	echo ""
-	
+
 }
 
 case "$1" in
@@ -56,7 +59,7 @@ case "$1" in
 	install)
 		uninstall;
 	    install;
-		rm -rf $SPEED_PATH	
+		rm -rf $SPEED_PATH
 	;;
 
     *)
