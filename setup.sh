@@ -41,7 +41,8 @@ function install() {
 	mv README.md $SPEED_PATH
 
 	### Setting right permissions
-	chmod +x $SPEED_BIN
+	chmod +x $SPEED_BIN/*
+	rm -rf $SPEED_BIN/setup.sh
 
 	echo ""
 	echo -e "----------------------------------------------------------------------------------"
