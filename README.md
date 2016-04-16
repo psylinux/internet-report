@@ -28,7 +28,9 @@ To check ping and speed every 20 minutes:
 $ sudo nano /etc/crontab
 ```
 add:
+```bash
 */20 * * * * pi bash /tmp/internet_report/bin/speed_check.sh
+````
 
 Do not check massively your speed. Allow SpeedClient servers free for other users, please.
 Many testings are not goods for your internet speed too. I turn on each time that internet connection seems go too much slow.
@@ -37,9 +39,13 @@ You can receive by email your daily internet speed report whenever you want with
 ```bash
 $ bash /tmp/internet_report/bin/speed_check.sh
 ```
+
 My favourite setting is to receive email report at the end of day, so I cron the script speed_check.sh as follow:
 ```bash
 $ sudo nano /etc/crontab
 ```
+
 add:
+```bash
 00 23 * * * pi bash /tmp/internet_report/bin/speed_check.sh
+```
