@@ -10,7 +10,7 @@
 ### END INIT INFO
 
 ### Setting enviroment variables
-source ../etc/settings.conf
+source /opt/internet-report/etc/settings.conf
 
 echo ""
 echo -e "--------------------------------------------------------------------"
