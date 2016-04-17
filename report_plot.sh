@@ -34,7 +34,7 @@ FILEB=$SPEED_DATA/$ping
 	set terminal png medium
 	set output "$SPEED_REPORTS/speedupdown.png"
 	set title "upload/download speed $now"
-	plot "$FILE" using 1:(column(2)) t "Upload" with lines lt 1 lw 3 linecolor 2, "$FILEA" using 1:(column(2)) t "Download" with lines lt 1 lw 3 linecolor 1
+	plot "$FILEA" using 1:(column(2)) t "Upload" with lines lt 1 lw 3 linecolor 2, "$FILE" using 1:(column(2)) t "Download" with lines lt 1 lw 3 linecolor 1
 	quit
 	PLOT
 EOF`
