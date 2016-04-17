@@ -10,7 +10,7 @@
 ### END INIT INFO
 
 ### Setting enviroment variables
-source /opt/internet-report/etc/settings.conf
+source /opt/internet_report/etc/settings.conf
 
 d=`date +%d%m%Y`
 ping=$d"ping.txt"
