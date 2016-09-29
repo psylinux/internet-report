@@ -9,7 +9,7 @@ To change this behavior you can edit **settings.conf** and change **SPEED_HOME**
 ## How to Install
 ```bash
 * git clone https://github.com/psylinux/internet_report.git ir_installer
-* cd ir_installer/
+* cd internet_report/
 * chmod +x setup.sh
 * sudo ./setup.sh
 ```
@@ -22,11 +22,11 @@ To change this behavior you can edit **settings.conf** and change **SPEED_HOME**
 
 ## Where are the reports?
 * The graphic report can be viewed inside **reports directory**.
-* The text report can be viewed inside **data directory**. Just use an text editor to open **.txt** files.
-* The **ping.txt** and **speed.txt** just show the latest speed test performed.
+* The text report can be viewed inside **data directory**. Just use a text editor to open **.txt** files.
+* The **ping.txt** and **speed.txt** just shows the latest speed test performed.
 
 ## Final Settings
-We are going to cron sript internetspeed.sh
+Put a job in crontab to run the  script internetspeed.sh
 
 To check ping and speed every 20 minutes:
 ```bash
