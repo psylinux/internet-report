@@ -11,7 +11,7 @@ To change this behavior you can edit **settings.conf** and change **SPEED_HOME**
 * git clone https://github.com/psylinux/internet_report.git ir_installer
 * cd ir_installer/
 * chmod +x setup.sh
-* ./setup.sh
+* sudo ./setup.sh
 ```
 
 ## How to Use it
